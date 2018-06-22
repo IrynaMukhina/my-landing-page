@@ -1,0 +1,7 @@
+<div class="service">
+<div>{{ details.type }}</div>
+<div *ngIf="show" class="description" id="descriptiontext">{{ details.description }}</div>
+<br>
+<button (click)="show = !show" class="button">{{show ? 'Less' : 'More'}}</button>
+</div>
+

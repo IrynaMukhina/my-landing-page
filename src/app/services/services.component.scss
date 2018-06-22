@@ -1,0 +1,29 @@
+#caption {
+    color: #e7ed48;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    height: 70px;
+}
+
+#servicescontainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+}
+
+.service {
+    margin-bottom: 10px;
+  
+}
+
+@media (min-width: 727px){
+    #servicescontainer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    }

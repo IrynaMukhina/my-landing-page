@@ -1,0 +1,31 @@
+#caption {
+    color: #e7ed48;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    height: 70px;
+    margin-top: 30px;
+}
+
+#trainerscontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.trainer img {
+    width: 230px;
+    height: 210px;
+    margin: 10px;
+}
+
+
+@media (min-width: 727px){
+    .trainer img {
+        width: 400px;
+        height: 340px;
+        margin: 10px;
+    }
+    }
