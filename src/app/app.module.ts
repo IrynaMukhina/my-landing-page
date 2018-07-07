@@ -12,6 +12,8 @@ import { NutritionComponent } from './nutrition/nutrition.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { ServiceTypeComponent } from './service-type/service-type.component';
 
+import { FormsModule }   from '@angular/forms';
+ 
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +28,8 @@ import { ServiceTypeComponent } from './service-type/service-type.component';
     ServiceTypeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

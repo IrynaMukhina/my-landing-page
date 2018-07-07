@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nutrition.component.scss']
 })
 
-
 export class NutritionComponent implements OnInit {
 
   constructor() { }
